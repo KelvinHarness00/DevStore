@@ -1,4 +1,4 @@
-## 🚀 Essa é uma aplicação Windows WPF demonstrando minhas competências com a tecnologia. Pode-se dizer que é um portfólio. 🚀
+## 🚀 Essa é uma aplicação Windows WPF demonstrando minhas competências com a tecnologia 🚀
 
 
 
@@ -14,7 +14,7 @@ O DevStore é a minha apresentação como desenvolvedor, destacando uma coleçã
 
 ### Referencias
 Ícones:
-- https://www.flaticon.com/br/sticker-gratis/engenheiro-de-computacao_11471283?term=programador&page=1&position=4&origin=search&related_id=11471283
+- [developer](https://www.flaticon.com/free-icon/computer-engineer_11471283?term=programmer&page=1&position=4&related_id=11471283)
 
 ### Como Usar
 
@@ -45,3 +45,48 @@ Este portfólio é uma representação do meu histórico e trabalhos anteriores 
 
 Favor enviar dúvidas e feedbacks para kelvin.alves.harness@gmail.com.
 
+
+---------- Translate -----------
+
+## 🚀 This is a Windows WPF application showcasing my skills with the technology. You can call it a portfolio. 🚀
+
+## About the Project
+
+DevStore is my presentation as a developer, highlighting a collection of projects that showcase my skills and experiences in software development. This portfolio serves as a platform to explore my previous work, my background, and contact information.
+
+### Technologies Used
+
+- **Development Environment**: Visual Studio 2022
+- **Key Technologies**: C#, XAML
+- **Database**: Not applicable
+
+### References
+Icons:
+- [developer](https://www.flaticon.com/free-icon/computer-engineer_11471283?term=programmer&page=1&position=4&related_id=11471283)
+
+### How to Use
+
+To explore my portfolio and projects, follow these steps:
+
+1. Clone this repository to your local environment using Git: [https://github.com/KelvinHarness00/DevStore](https://github.com/KelvinHarness00/DevStore)
+
+2. Open the `.sln` file in Visual Studio 2022 to access the project.
+
+3. Explore the projects and their source code to see examples of my previous work.
+
+### Contact
+
+To get in touch or collaborate, you can reach me through the following means:
+
+- Email: kelvin.alves.harness@gmail.com
+- LinkedIn: [Kelvin Harness](https://www.linkedin.com/in/kelvin-harness/)
+
+This portfolio is a representation of my background and previous work as a developer. Feel free to explore and reach out to discuss collaboration opportunities or ask questions about any project.
+
+## Author
+
+- [@kelvinharness00](https://github.com/KelvinHarness00)
+
+## Feedback
+
+Please send questions and feedback to kelvin.alves.harness@gmail.com.
