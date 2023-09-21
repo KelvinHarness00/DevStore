@@ -25,12 +25,30 @@
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+
+            <Button x:Name="MinimizeButton"
+                    Grid.Column="1" 
+                    Content="_" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Center" 
+                    Width="30" Height="30" Margin="0,0,40,0" 
+                    Click="MinimizeButton_Click"/>
             
-            
+            <Button x:Name="CloseButton" 
+                    Grid.Column="1" 
+                    Content="X" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Center" 
+                    Width="30" Height="30" Margin="0,0,10,0" 
+                    Click="CloseButton_Click"/>
+
+
             <TextBlock Text="Your Dev Store"
+                       Grid.Row="1"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
                        Margin="20,0,0,0"
@@ -38,7 +56,7 @@
                        FontFamily="/Fonts/#Rubik"
                        FontSize="22"/>
 
-            <StackPanel Grid.Row="1">
+            <StackPanel Grid.Row="2">
                 <RadioButton Content="Home"
                              Style="{StaticResource MenuButtonStyle}"
                              Height="50"
@@ -56,7 +74,7 @@
                              FontSize="14"
                              Command="{Binding DiscoveryViewCommand}"/>
 
-                <RadioButton Content="Feature"
+                <RadioButton Content="About Me"
                              Style="{StaticResource MenuButtonStyle}"
                              Height="50"
                              FontFamily="/Fonts/#Rubik"
@@ -72,9 +90,10 @@
                      FontFamily="/Fonts/#Rubik"
                      Margin="5"
                      Style="{StaticResource ModernTextBox}"
+                     Grid.Row="1"
                      Grid.Column="1"/>
 
-            <ContentControl Grid.Row="1"
+            <ContentControl Grid.Row="2"
                             Grid.Column="1"
                             Margin="10"
                             Content="{Binding CurrentView}"/>

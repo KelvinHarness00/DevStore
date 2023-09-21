@@ -16,14 +16,9 @@
 
         <StackPanel Orientation="Horizontal">
             <Border Width="400"
+                    Style="{StaticResource MouseOverBorderContact}"
+                    MouseLeftButtonDown="Contact_MouseLeftButtonDown"
                     Height="200">
-
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#f59342" Offset="0.0"/>
-                        <GradientStop Color="#38d6e8" Offset="1"/>
-                    </LinearGradientBrush>
-                </Border.Background>
 
                 <Border.Clip>
                     <RectangleGeometry RadiusX="10"
@@ -67,14 +62,44 @@
             <Border Width="200" 
                     Height="200"
                     Margin="45 0 0 0 "
+                    Style="{StaticResource MouseOverBorderGithub}"
+                    MouseLeftButtonDown="Github_MouseLeftButtonDown"
                     CornerRadius="10">
 
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#845eeb" Offset="0.0"/>
-                        <GradientStop Color="#0faed6" Offset="1"/>
-                    </LinearGradientBrush>
-                </Border.Background>
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Access my &#x0a;Github"
+                                   TextAlignment="Right"
+                                   Foreground="White"
+                                   FontFamily="/Fonts/#Rubik"
+                                   FontSize="28"
+                                   Margin="20 10 10 0"/>
+
+                        <TextBlock Text="Click here"
+                                   TextAlignment="Right"
+                                   Foreground="White"
+                                   FontFamily="/Fonts/#Rubik"
+                                   FontSize="18"
+                                   Margin="20 10 10 0"/>
+                    </StackPanel>
+
+                    <Image Width="100"
+                           Height="100"
+                           Source="/Images/github.png"
+                           HorizontalAlignment="Left"
+                           Panel.ZIndex="0"
+                           VerticalAlignment="Bottom"
+                           RenderTransformOrigin="0.5 ,0.5" Margin="5,0,0,13">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-23.71"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Grid>
             </Border>
         </StackPanel>
 
@@ -84,9 +109,9 @@
                     <Setter Property="Margin" Value="15 0 0 0"/>
                 </Style>
             </StackPanel.Resources>
-            
-            
-            <TextBlock Text="About Me"
+
+
+            <TextBlock Text="Previous works"
             Foreground="White"
             FontFamily="/Fonts/#Rubik"
             FontSize="20"
@@ -97,24 +122,61 @@
             <StackPanel Orientation="Horizontal">
                 <Border Width="150"
                         Height="150"
-                        Background="#844eff"
+                        Style="{StaticResource MouseOverBorderSamsung}"
                         CornerRadius="10"
-                        Margin="0"/>
+                        Margin="0">
+                    <TextBlock Text="Samsung&#x0a;Project"
+                               Margin="10"
+                               Foreground="White"
+                               FontFamily="/Fonts/#Rubik"
+                               FontSize="18"
+                               HorizontalAlignment="Left"/>
+
+                </Border>
 
                 <Border Width="150"
                         Height="150"
-                        Background="#4e99ff"
-                        CornerRadius="10"/>
+                        Margin="10 0 0 0"
+                        MouseLeftButtonDown="Educandus_MouseLeftButtonDown"
+                        Style="{StaticResource MouseOverBorderEducandus}"
+                        CornerRadius="10">
+                    <TextBlock Text="Educandus"
+                               Margin="10"
+                               Foreground="White"
+                               FontFamily="/Fonts/#Rubik"
+                               FontSize="18"
+                               HorizontalAlignment="Left"/>
+                    
+                </Border>
 
                 <Border Width="150"
                         Height="150"
-                        Background="#4eff91"
-                        CornerRadius="10"/>
+                        Margin="10 0 0 0"
+                        Style="{StaticResource MouseOverBorderPersonalProjects}"
+                        CornerRadius="10">
+                    <TextBlock Text="Personal&#x0a;projects"
+                               Margin="10"
+                               Foreground="White"
+                               FontFamily="/Fonts/#Rubik"
+                               FontSize="18"
+                               HorizontalAlignment="Left"/>
+                    
+                </Border>
 
                 <Border Width="150"
                         Height="150"
-                        Background="#ecff4e"
-                        CornerRadius="10"/>
+                        Margin="10 0 0 0"
+                        Style="{StaticResource MouseOverBorderProgrammingClasses}"
+                        MouseLeftButtonDown="ProgrammingClasses_MouseLeftButtonDown"
+                        CornerRadius="10">
+                    <TextBlock Text="Programming&#x0a;Classes"
+                               Margin="10"
+                               Foreground="White"
+                               FontFamily="/Fonts/#Rubik"
+                               FontSize="18"
+                               HorizontalAlignment="Left"/>
+                    
+                </Border>
             </StackPanel>
             
         </StackPanel>
