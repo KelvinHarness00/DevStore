@@ -15,7 +15,7 @@
                    Margin="0,0,0,20"/>
 
         <StackPanel Orientation="Horizontal">
-            <Border Width="400"
+            <Border Width="420"
                     Style="{StaticResource MouseOverBorderContact}"
                     MouseLeftButtonDown="Contact_MouseLeftButtonDown"
                     Height="200">
@@ -23,12 +23,12 @@
                 <Border.Clip>
                     <RectangleGeometry RadiusX="10"
                                        RadiusY="10"
-                                       Rect="0,0,400,200"/>
+                                       Rect="0,0,420,200"/>
                 </Border.Clip>
 
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="Your New&#x0a;. NET Developer"
+                        <TextBlock Text="Your New&#x0a;Developer"
                                    Foreground="White"
                                    FontFamily="/Fonts/#Rubik"
                                    FontSize="28"
@@ -45,7 +45,7 @@
                            Height="200"
                            Source="/Images/developer.png"
                            HorizontalAlignment="Right"
-                           VerticalAlignment="Bottom" Margin="0,0,-35,-20"
+                           VerticalAlignment="Bottom" Margin="0,0,-37,-22"
                            RenderTransformOrigin="0.5 ,0.5">
                         <Image.RenderTransform>
                             <TransformGroup>
@@ -61,7 +61,7 @@
 
             <Border Width="200" 
                     Height="200"
-                    Margin="45 0 0 0 "
+                    Margin="10 0 0 0 "
                     Style="{StaticResource MouseOverBorderGithub}"
                     MouseLeftButtonDown="Github_MouseLeftButtonDown"
                     CornerRadius="10">
@@ -123,6 +123,7 @@
                 <Border Width="150"
                         Height="150"
                         Style="{StaticResource MouseOverBorderSamsung}"
+                        MouseLeftButtonDown="SamsungProject_MouseLeftButtonDown"
                         CornerRadius="10"
                         Margin="0">
                     <TextBlock Text="Samsung&#x0a;Project"

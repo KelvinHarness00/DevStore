@@ -11,8 +11,12 @@ namespace WPFStore.MVVM.ViewModel
     {
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand DiscoveryViewCommand { get; set; }
+        public RelayCommand AboutMeViewCommand { get; set; }
+        public RelayCommand SkillsViewCommand { get; set; }
 
         public DiscoveryViewModel DiscoveryVM { get; set; }
+        public AboutMeViewModel AboutMeVM { get; set; }
+        public SkillsViewModel SkillsVM { get; set; }
 
         public HomeViewModel HomeVM { get; set; }
 
@@ -33,6 +37,8 @@ namespace WPFStore.MVVM.ViewModel
         {
             HomeVM = new HomeViewModel();
             DiscoveryVM = new DiscoveryViewModel();
+            AboutMeVM = new AboutMeViewModel();
+            SkillsVM = new SkillsViewModel();
 
             CurrentView = HomeVM;
 
@@ -44,6 +50,16 @@ namespace WPFStore.MVVM.ViewModel
             DiscoveryViewCommand = new RelayCommand(o =>
             {
                 CurrentView = DiscoveryVM;
+            });
+
+            AboutMeViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = AboutMeVM;
+            });
+
+            SkillsViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = SkillsVM;
             });
         }
     }

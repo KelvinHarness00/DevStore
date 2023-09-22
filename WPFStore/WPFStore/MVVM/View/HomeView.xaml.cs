@@ -77,6 +77,6 @@ namespace WPFStore.MVVM.View
             }
         }
         #endregion
-
+        
     }
 }

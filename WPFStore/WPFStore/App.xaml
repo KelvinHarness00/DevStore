@@ -19,6 +19,14 @@
             <view:DiscoveryView/>
         </DataTemplate>
 
+        <DataTemplate DataType="{x:Type viewModel:AboutMeViewModel}">
+             <view:AboutMeView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModel:SkillsViewModel}">
+             <view:SkillsView/>
+        </DataTemplate>
+
         </ResourceDictionary>
 
 

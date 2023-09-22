@@ -66,7 +66,7 @@
                              FontSize="14"
                              Command="{Binding HomeViewCommand}"/>
 
-                <RadioButton Content="Discovery"
+                <RadioButton Content="Projects"
                              Style="{StaticResource MenuButtonStyle}"
                              Height="50"
                              Foreground="White"
@@ -74,12 +74,21 @@
                              FontSize="14"
                              Command="{Binding DiscoveryViewCommand}"/>
 
+                <RadioButton Content="Skills"
+                             Style="{StaticResource MenuButtonStyle}"
+                             Height="50"
+                             Foreground="White"
+                             FontFamily="/Fonts/#Rubik"
+                             FontSize="14"
+                             Command="{Binding SkillsViewCommand}"/>
+
                 <RadioButton Content="About Me"
                              Style="{StaticResource MenuButtonStyle}"
                              Height="50"
                              FontFamily="/Fonts/#Rubik"
                              Foreground="White"
-                             FontSize="14"/>
+                             FontSize="14"
+                             Command="{Binding AboutMeViewCommand}"/>
 
             </StackPanel>
 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\App.xaml
-4-702803930
+6589231669
 
-13-655919466
+171780330692
 13-1310406943
-MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;Styles\Generics.xaml;
+MainWindow.xaml;MVVM\View\AboutMeView.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;MVVM\View\SkillsView.xaml;Styles\Generics.xaml;
 
-True
+False
 

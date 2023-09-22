@@ -42,3 +42,7 @@ C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore
 C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\WPFStore.csproj.CoreCompileInputs.cache
 C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\WPFStore.exe
 C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\WPFStore.pdb
+C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\MVVM\View\AboutMeView.g.cs
+C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\MVVM\View\SkillsView.g.cs
+C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\MVVM\View\AboutMeView.baml
+C:\Users\kelvi\OneDrive\Documentos\Projetos\WPF Store\DevStore\WPFStore\WPFStore\obj\Debug\MVVM\View\SkillsView.baml
