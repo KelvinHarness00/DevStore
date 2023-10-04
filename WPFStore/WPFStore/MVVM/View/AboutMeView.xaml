@@ -5,9 +5,144 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFStore.MVVM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800"
-             Background="Purple">
-    <Grid>
-            
-    </Grid>
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock Text="About Me"
+        Foreground="White"
+        FontSize="28"
+        HorizontalAlignment="Left"
+        FontFamily="/Fonts/#Rubik"
+        Margin="0,0,0,20"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock Text="Kelvin Alves Harness"
+               Grid.Column="0"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Recife - Pernambuco - Brazil"
+               Grid.Column="1"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Computer Science"
+               VerticalAlignment="Center"
+               Grid.Column="0"
+               Grid.Row="1"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Rural Federal University of&#x0a;Pernambuco"
+               Grid.Column="1"
+               Grid.Row="1"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Digital Game Programming&#x0a;Technician"
+               VerticalAlignment="Center"
+               Grid.Column="0"
+               Grid.Row="2"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Cícero Dias State Technical&#x0a;School"
+               Grid.Column="1"
+               Grid.Row="2"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="IT Project Management"
+               VerticalAlignment="Center"
+               Grid.Column="0"
+               Grid.Row="3"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Estácio"
+               Grid.Column="1"
+               Grid.Row="3"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Connect and Foundation Trails"
+               VerticalAlignment="Center"
+               Grid.Column="0"
+               Grid.Row="4"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Rocketseat"
+               Grid.Column="1"
+               Grid.Row="4"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Angular 9 Essencial"
+               VerticalAlignment="Center"
+               Grid.Column="0"
+               Grid.Row="5"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+            <TextBlock Text="Udemy"
+               Grid.Column="1"
+               Grid.Row="5"
+               Foreground="White"
+               FontSize="24"
+               HorizontalAlignment="Left"
+               FontFamily="/Fonts/#Rubik"
+               Margin="20,0,0,20"/>
+
+        </Grid>
+
+
+    </StackPanel>
 </UserControl>
