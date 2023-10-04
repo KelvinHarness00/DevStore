@@ -23,7 +23,7 @@
             <StackPanel Orientation="Horizontal" Margin="10 0 0 0">
                 <Border Width="120"
                     Height="80"
-                    Style="{StaticResource MouseOverBorderSamsung}"
+                    Style="{StaticResource skills1}"
                     CornerRadius="10"
                     Margin="0">
                     <TextBlock Text=". NET"
@@ -38,7 +38,7 @@
                 <Border Width="120"
                     Height="80"
                     Margin="10 0 0 0"
-                    Style="{StaticResource MouseOverBorderEducandus}"
+                    Style="{StaticResource skills2}"
                     CornerRadius="10">
                     <TextBlock Text="C#"
                            Margin="10"
@@ -52,7 +52,7 @@
                 <Border Width="120"
                     Height="80"
                     Margin="10 0 0 0"
-                    Style="{StaticResource MouseOverBorderGithub}"
+                    Style="{StaticResource skills3}"
                     CornerRadius="10">
                     <TextBlock Text="Java&#x0a;Script"
                            Margin="10"
@@ -66,7 +66,7 @@
                 <Border Width="120"
                     Height="80"
                     Margin="10 0 0 0"
-                    Style="{StaticResource MouseOverBorderProgrammingClasses}"
+                    Style="{StaticResource skills4}"
                     CornerRadius="10">
                     <TextBlock Text="React"
                            Margin="10"
@@ -80,7 +80,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderContact}"
+                        Style="{StaticResource skills5}"
                         CornerRadius="10">
                     <TextBlock Text="Angular"
                                Margin="10"
@@ -104,7 +104,7 @@
             <StackPanel Orientation="Horizontal" Margin="10 0 0 0">
                 <Border Width="120"
             Height="80"
-            Style="{StaticResource MouseOverBorderSamsung}"
+            Style="{StaticResource skills1}"
             CornerRadius="10"
             Margin="0">
                     <TextBlock Text="UWP"
@@ -119,7 +119,7 @@
                 <Border Width="120"
             Height="80"
             Margin="10 0 0 0"
-            Style="{StaticResource MouseOverBorderEducandus}"
+            Style="{StaticResource skills2}"
             CornerRadius="10">
                     <TextBlock Text="WPF"
                    Margin="10"
@@ -133,7 +133,7 @@
                 <Border Width="120"
             Height="80"
             Margin="10 0 0 0"
-            Style="{StaticResource MouseOverBorderGithub}"
+            Style="{StaticResource skills3}"
             CornerRadius="10">
                     <TextBlock Text="SQL"
                    Margin="10"
@@ -147,7 +147,7 @@
                 <Border Width="120"
             Height="80"
             Margin="10 0 0 0"
-            Style="{StaticResource MouseOverBorderProgrammingClasses}"
+            Style="{StaticResource skills4}"
             CornerRadius="10">
                     <TextBlock Text="Git"
                    Margin="10"
@@ -161,7 +161,7 @@
                 <Border Width="120"
                 Height="80"
                 Margin="10 0 0 0"
-                Style="{StaticResource MouseOverBorderContact}"
+                Style="{StaticResource skills5}"
                 CornerRadius="10">
                     <TextBlock Text="Atlassian"
                        Margin="10"
@@ -192,7 +192,7 @@
             <StackPanel Orientation="Horizontal" Margin="10 0 0 0">
                 <Border Width="120"
                         Height="80"
-                        Style="{StaticResource MouseOverBorderSamsung}"
+                        Style="{StaticResource skills1}"
                         CornerRadius="10"
                         Margin="0">
                     <TextBlock Text="Leader-&#x0a;ship"
@@ -207,7 +207,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderEducandus}"
+                        Style="{StaticResource skills2}"
                         CornerRadius="10">
                     <TextBlock Text="Commu-&#x0a;nication"
                                Margin="10"
@@ -221,7 +221,7 @@
                 <Border Width="120"
             Height="80"
             Margin="10 0 0 0"
-            Style="{StaticResource MouseOverBorderGithub}"
+            Style="{StaticResource skills3}"
             CornerRadius="10">
                     <TextBlock Text="Empathy"
                    Margin="10"
@@ -235,7 +235,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderProgrammingClasses}"
+                        Style="{StaticResource skills4}"
                         CornerRadius="10">
                     <TextBlock Text="Adapta-&#x0a;bility"
                                Margin="10"
@@ -249,7 +249,7 @@
                 <Border Width="120"
                 Height="80"
                 Margin="10 0 0 0"
-                Style="{StaticResource MouseOverBorderContact}"
+                Style="{StaticResource skills5}"
                 CornerRadius="10">
                     <TextBlock Text="Team-&#x0a;work"
                        Margin="10"
@@ -273,7 +273,7 @@
             <StackPanel Orientation="Horizontal" Margin="10 0 0 0">
                 <Border Width="120"
                         Height="80"
-                        Style="{StaticResource MouseOverBorderSamsung}"
+                        Style="{StaticResource skills1}"
                         CornerRadius="10"
                         Margin="0">
                     <TextBlock Text="Respon-&#x0a;sible"
@@ -288,7 +288,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderEducandus}"
+                        Style="{StaticResource skills2}"
                         CornerRadius="10">
                     <TextBlock Text="Positi-&#x0a;vity"
                                Margin="10"
@@ -302,7 +302,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderGithub}"
+                        Style="{StaticResource skills3}"
                         CornerRadius="10">
                     <TextBlock Text="Charisma"
                                Margin="10"
@@ -316,7 +316,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderProgrammingClasses}"
+                        Style="{StaticResource skills4}"
                         CornerRadius="10">
                     <TextBlock Text=" Dedica-&#x0a;tion"
                                Margin="10"
@@ -330,7 +330,7 @@
                 <Border Width="120"
                         Height="80"
                         Margin="10 0 0 0"
-                        Style="{StaticResource MouseOverBorderContact}"
+                        Style="{StaticResource skills5}"
                         CornerRadius="10">
                     <TextBlock Text="Calmness"
                                Margin="10"

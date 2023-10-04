@@ -219,4 +219,59 @@
         </Style.Triggers>
     </Style>
 
+    <Style x:Key="skills1" TargetType="Border">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                    <GradientStop Color="#845eeb" Offset="0.0"/>
+                    <GradientStop Color="#0faed6" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="skills2" TargetType="Border">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                    <GradientStop Color="#0faed6" Offset="0.0"/>
+                    <GradientStop Color="#7242f5" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="skills3" TargetType="Border">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                    <GradientStop Color="#f59342" Offset="0.0"/>
+                    <GradientStop Color="#845eeb" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="skills4" TargetType="Border">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                    <GradientStop Color="#1d21f5" Offset="0.0"/>
+                    <GradientStop Color="#e139ed" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="skills5" TargetType="Border">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                    <GradientStop Color="#ed2b48" Offset="0.0"/>
+                    <GradientStop Color="#845eeb" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
 </ResourceDictionary>
